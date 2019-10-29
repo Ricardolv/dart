@@ -1,8 +1,9 @@
-import 'src/pessoa.dart';
+import 'package:objetos/src/gato.dart';
 
 main(List<String> arguments) {
-  Pessoa pessoa = Pessoa(nome: "Richard", idade: 30, sexo: "M");
-  
-  print(pessoa.altura);
+
+    Gato gato = Gato(nome: "Tilete", barulho: "Miau");
+
+    print("Gato faz: ${gato.barulho}");
   
 }
