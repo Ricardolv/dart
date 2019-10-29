@@ -3,8 +3,8 @@ class Pessoa {
   int idade;
   String sexo;
 
-  String _otherNome = "variavel local";
-  final String constante = "variavel imutavel";
+  String otherNome = "variavel local";
+  final String _otherNome = "variavel imutavel";
 
   Pessoa({this.nome, this.idade, this.sexo});
 
