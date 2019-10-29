@@ -1,6 +1,6 @@
 import 'src/pessoa.dart';
 
 main(List<String> arguments) {
-  var pessoa = Pessoa();
-  print(pessoa.nome);
+  Pessoa pessoa = Pessoa(nome: "Richard", idade: 30, sexo: "M");
+  
 }
