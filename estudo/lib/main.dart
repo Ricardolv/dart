@@ -8,7 +8,7 @@ main(List<String> arguments) {
     calcular();
   } else if (arguments[0] == "carrinho-compras") {
     carrinhoCompras();
-  } else if (arguments[0] == "calculo-imc") {
+  } else if (arguments[0] == "imc") {
     calculoImc();
   } else {
     print("<=============> ESTE PROGRAMA NAO EXISTE <=============>");
