@@ -24,5 +24,4 @@ main(List<String> arguments) {
   print("imc: ${pessoa.imc()}");
   print("maior de idade: ${pessoa.maiorIdade()}");
 
-  
 }
